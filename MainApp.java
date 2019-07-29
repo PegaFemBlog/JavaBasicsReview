@@ -12,15 +12,20 @@ public class MainApp {
 //	static OrderOfThings oot = new OrderOfThings();
 	static BestAdder badd = new BestAdder();
 	static PassingTheTuringTest turing = new PassingTheTuringTest();
+	static DoItBetter doi = new DoItBetter();
+	static HealthyHearts hh = new HealthyHearts();
 	
 	public static void main(String[] args) {
 		
+		hh.hearts();
+		System.out.println("-----------------------------------------------------------------------------");
+		
+//		DoItBetter.better();
+//		System.out.println("-----------------------------------------------------------------------------");
 //		BestAdder.adder();
 //		System.out.println("-----------------------------------------------------------------------------");
-	
-		turing.turing();
-		System.out.println("-----------------------------------------------------------------------------");	
-		
+//		turing.turing();
+//		System.out.println("-----------------------------------------------------------------------------");	
 //		//declare the number to be factored
 //		int fact;
 //		int i;
