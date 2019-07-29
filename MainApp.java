@@ -11,12 +11,15 @@ public class MainApp {
 //	static InABucket iab = new InABucket();
 //	static OrderOfThings oot = new OrderOfThings();
 	static BestAdder badd = new BestAdder();
+	static PassingTheTuringTest turing = new PassingTheTuringTest();
 	
 	public static void main(String[] args) {
 		
-		BestAdder.adder();
-		System.out.println("-----------------------------------------------------------------------------");
-		
+//		BestAdder.adder();
+//		System.out.println("-----------------------------------------------------------------------------");
+	
+		turing.turing();
+		System.out.println("-----------------------------------------------------------------------------");	
 		
 //		//declare the number to be factored
 //		int fact;
